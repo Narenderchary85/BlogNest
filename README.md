@@ -26,4 +26,12 @@
 
 ![Alt Text](https://github.com/Narenderchary85/BlogNest/blob/main/public/bookmarks.png)
 
+## Installation and Setup
+
+### Backend Repository Setup
+
+1. **Clone the Backend Repository:**
+   ```bash
+   git clone https://github.com/Narenderchary85/BlogNest_backend
+   cd BlogNest_backend
 
