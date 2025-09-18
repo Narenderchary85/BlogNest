@@ -175,20 +175,7 @@ const Navbar = ({fetchBlogs}) => {
                   <span className="text-base font-medium text-gray-700 dark:text-gray-300">
                     {userData?.name || 'User'}
                   </span>
-                </div>
-                <Link
-                  to="/create-blog"
-                  className="block px-3 py-3 rounded-md text-base font-medium text-white bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-800 transition-all duration-300 text-center shadow-md mt-2"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  <span className="flex items-center justify-center">
-                    <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
-                    Add Blog
-                  </span>
-                </Link>
-             
+                </div>           
               </div>
             </>
           ) : (
