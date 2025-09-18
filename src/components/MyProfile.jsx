@@ -61,9 +61,6 @@ const MyProfile = ({fetchBlogs}) => {
         const response = await axios.delete(
           `${import.meta.env.VITE_API_URL}/blog/delete/${blogId}`,
           {
-            headers: {
-              Authorization: `Bearer ${token}`
-            },
             withCredentials:true
           }
         );
