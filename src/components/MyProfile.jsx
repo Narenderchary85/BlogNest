@@ -374,7 +374,7 @@ const MyProfile = ({fetchBlogs}) => {
             )}
           </motion.div>
         </div>
-         <AddBlog isOpen={isAddBlogOpen} onClose={() => setIsAddBlogOpen(false)} />
+         <AddBlog isOpen={isAddBlogOpen} onClose={() => setIsAddBlogOpen(false)} fetchBlogs={fetchBlogs}/>
          {selectedBlog && (
         <BlogCard blog={selectedBlog} onClose={() => setSelectedBlog(null)} />
       )}
